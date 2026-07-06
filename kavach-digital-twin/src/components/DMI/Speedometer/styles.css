@@ -1,0 +1,70 @@
+.speedometer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speedometer-svg {
+    width: 100%;
+    height: 100%;
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.speedometer text {
+    user-select: none;
+}
+
+.speed-number {
+    fill: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.speed-label {
+    fill: #94a3b8;
+    font-size: 18px;
+}
+
+.digital-speed {
+    fill: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.speed-needle {
+    transition: transform 0.25s ease-out;
+}
+
+.tick-major {
+    stroke: white;
+    stroke-width: 3;
+}
+
+.tick-minor {
+    stroke: #9ca3af;
+    stroke-width: 1.5;
+}
+
+.permitted-marker {
+    fill: #22c55e;
+}
+
+.target-marker {
+    fill: #facc15;
+}
+
+.overspeed-arc {
+    stroke: #ef4444;
+}
+
+.warning-arc {
+    stroke: #facc15;
+}
+
+.safe-arc {
+    stroke: #22c55e;
+}

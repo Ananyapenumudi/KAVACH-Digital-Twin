@@ -1,0 +1,16 @@
+:root {
+  --bg-main: #050505;
+  --bg-panel: #111111;
+  --border: #5a5a5a;
+
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+
+  --green: #00ff66;
+  --yellow: #ffd400;
+  --red: #ff3030;
+  --blue: #2f80ed;
+
+  --radius: 8px;
+  --spacing: 12px;
+}

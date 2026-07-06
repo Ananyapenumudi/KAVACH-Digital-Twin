@@ -1,0 +1,59 @@
+.scenario-panel{
+
+display:flex;
+
+flex-direction:column;
+
+gap:14px;
+
+padding:18px;
+
+}
+
+.scenario-panel h2{
+
+font-size:22px;
+
+margin-bottom:10px;
+
+}
+
+.scenario-panel label{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+font-size:15px;
+
+}
+
+.scenario-panel input{
+
+width:100px;
+
+padding:5px;
+
+}
+
+.scenario-panel select{
+
+width:130px;
+
+padding:5px;
+
+}
+
+.scenario-panel button{
+
+margin-top:20px;
+
+padding:12px;
+
+font-size:16px;
+
+cursor:pointer;
+
+}

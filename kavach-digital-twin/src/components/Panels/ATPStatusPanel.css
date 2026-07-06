@@ -1,0 +1,43 @@
+.atp-panel{
+
+    padding:20px;
+
+    height:100%;
+
+}
+
+.atp-panel h2{
+
+    margin-bottom:18px;
+
+    text-align:center;
+
+}
+
+.status-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr auto;
+
+    row-gap:14px;
+
+    column-gap:20px;
+
+    align-items:center;
+
+}
+
+.status-grid div:nth-child(odd){
+
+    color:#9ca3af;
+
+}
+
+.status-grid div:nth-child(even){
+
+    font-weight:bold;
+
+    color:#fff;
+
+}

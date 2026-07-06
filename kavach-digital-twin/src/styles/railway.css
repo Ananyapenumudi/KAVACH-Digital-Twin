@@ -1,0 +1,18 @@
+.railway {
+  width: 100%;
+  background: #3b3b3b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.track {
+  margin-top: 20px;
+
+  min-height: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #222;
+}

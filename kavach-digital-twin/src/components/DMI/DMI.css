@@ -1,0 +1,21 @@
+.dmi-layout{
+
+    display:grid;
+
+    grid-template-rows:
+
+        1fr
+
+        auto
+
+        auto
+
+        auto;
+
+    gap:18px;
+
+    height:100%;
+
+    padding:20px;
+
+}
